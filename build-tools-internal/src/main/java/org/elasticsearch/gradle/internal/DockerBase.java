@@ -35,6 +35,7 @@ public enum DockerBase {
         "-wolfi",
         "apk"
     ),
+    // spotless:on
 
     // Based on WOLFI above, with more extras. We don't set a base image because
     // we programmatically extend from the Wolfi image.
